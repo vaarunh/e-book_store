@@ -57,7 +57,7 @@
                                     echo "<tr>
                                               <td>" . "#" . $row["id"] . "</td>
                                               <td>" . $row["Name"] . "</td>
-                                              <td>Rs " . $row["Price"] . "</td>
+                                              <td>₹" . $row["Price"] . ".00</td>
                                               <td><a href='cart-remove.php?id={$row['id']}' class='remove_item_link'> X </a></td>
                                           </tr>";
                                 }
@@ -65,10 +65,12 @@
                                 echo "<tr>
                                           <td></td>
                                           <td>Total</td>
-                                          <td>Rs " . $sum . "</td>
-                                          <td><a href='success.php?itemsid=".$id ."'class='btn btn-primary'>Confirm Order</a></td>
+                                          <td>₹" . $sum . ".00</td>
+                                          <td><a href='check.php'class='btn btn-primary'>Checkout</a></td>
                                           </tr>";
+            
                                 ?>
+                               
                             </tbody>
                             <?php
                         } else {
@@ -77,8 +79,12 @@
                         ?>
                         <?php
                         ?>
+                        <br>
+                <br>
+            
                     </table>
                 </div>
+                
              </div>
         </div>
         

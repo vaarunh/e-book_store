@@ -175,11 +175,11 @@ include "includes/common.php"
                                                 <?php
                                             } else {
                                                 //We have created a function to check whether this particular product is added to cart or not.
-                                                if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                if (check_if_added_to_cart(4)) { //This is same as if(check_if_added_to_cart != 0)
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                                 } else {
                                                 ?>
-                                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php
                                                 }
                                             }
@@ -198,9 +198,9 @@ include "includes/common.php"
                                             <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                                 <?php
                                             } else {
-                                                if (check_if_added_to_cart(2)) {
+                                                if (check_if_added_to_cart(5)) {
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                                } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                } else {  ?> <a href="cart-add.php?id=5" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php    }
                                             }    ?>
 
@@ -220,11 +220,11 @@ include "includes/common.php"
                                                 <?php
                                             } else {
                                                 //We have created a function to check whether this particular product is added to cart or not.
-                                                if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                if (check_if_added_to_cart(6)) { //This is same as if(check_if_added_to_cart != 0)
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                                 } else {
                                                 ?>
-                                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                    <a href="cart-add.php?id=6" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php
                                                 }
                                             }
@@ -257,11 +257,11 @@ include "includes/common.php"
                                                 <?php
                                             } else {
                                                 //We have created a function to check whether this particular product is added to cart or not.
-                                                if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                if (check_if_added_to_cart(7)) { //This is same as if(check_if_added_to_cart != 0)
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                                 } else {
                                                 ?>
-                                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                    <a href="cart-add.php?id=7" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php
                                                 }
                                             }
@@ -280,9 +280,9 @@ include "includes/common.php"
                                             <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                                 <?php
                                             } else {
-                                                if (check_if_added_to_cart(2)) {
+                                                if (check_if_added_to_cart(8)) {
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                                } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                } else {  ?> <a href="cart-add.php?id=8" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php    }
                                             }    ?>
 
@@ -302,11 +302,11 @@ include "includes/common.php"
                                                 <?php
                                             } else {
                                                 //We have created a function to check whether this particular product is added to cart or not.
-                                                if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                if (check_if_added_to_cart(9)) { //This is same as if(check_if_added_to_cart != 0)
                                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                                 } else {
                                                 ?>
-                                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                    <a href="cart-add.php?id=9" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                             <?php
                                                 }
                                             }
@@ -338,11 +338,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(10)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=10" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -361,9 +361,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(11)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=11" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -383,11 +383,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(12)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=12" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -420,11 +420,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(13)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=13" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -443,9 +443,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(14)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=14" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -465,11 +465,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(15)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=15" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -500,11 +500,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(16)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=16" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -523,9 +523,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(17)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=17" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -545,11 +545,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(18)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=18" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -580,11 +580,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(19)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=19" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -603,9 +603,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(20)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=20" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -625,11 +625,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(21)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=21" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -660,11 +660,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(22)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=22" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -677,15 +677,15 @@ include "includes/common.php"
                                 <div class="thumbnail">
                                     <img src="./img/ends.jpg" alt="">
                                     <div class="caption">
-                                        <h3>It Ends With Us</h3>
+                                        <h3>    </h3>
                                         <p>By Colleen Hoover</p>
                                         <p>Price: ₹299.00 </p>
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(23)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=23" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -705,11 +705,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(24)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=24" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -740,11 +740,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(25)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=25" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -763,9 +763,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(26)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=26" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -785,11 +785,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(27)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=27" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -820,11 +820,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(28)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=28" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -843,9 +843,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(29)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=29" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -865,11 +865,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(30)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=30" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -900,11 +900,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(31)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=31" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -923,9 +923,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(32)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=32" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -945,11 +945,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(33)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=33" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -980,11 +980,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(34)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=34" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -1003,9 +1003,9 @@ include "includes/common.php"
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(35)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=35" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -1025,11 +1025,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(36)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=36" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -1060,11 +1060,11 @@ include "includes/common.php"
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(37)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=37" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
@@ -1079,13 +1079,13 @@ include "includes/common.php"
                                     <div class="caption">
                                         <h4>Rich Dad Poor Dad</h4>
                                         <p>By Robert T. Kiyosaki</p>
-                                        <p>Price: ₹255.00 </p>
+                                        <p>Price: ₹99.00 </p>
                                         <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
-                                            if (check_if_added_to_cart(2)) {
+                                            if (check_if_added_to_cart(38)) {
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                            } else {  ?> <a href="cart-add.php?id=38" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php    }
                                         }    ?>
 
@@ -1099,17 +1099,17 @@ include "includes/common.php"
                                     <div class="caption">
                                         <h4>Atomic Habits</h4>
                                         <p>by James Clear</p>
-                                        <p>Price: ₹354.00 </p>
+                                        <p>Price: ₹99.00 </p>
                                         <?php if (!isset($_SESSION['email'])) { ?>
                                             <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                             <?php
                                         } else {
                                             //We have created a function to check whether this particular product is added to cart or not.
-                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                            if (check_if_added_to_cart(39)) { //This is same as if(check_if_added_to_cart != 0)
                                                 echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                             } else {
                                             ?>
-                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                                <a href="cart-add.php?id=39" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
                                         <?php
                                             }
                                         }
