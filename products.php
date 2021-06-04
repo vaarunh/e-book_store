@@ -318,8 +318,331 @@ include "includes/common.php"
                             <h4><a href="#" align="center"> Load More </a></h4>
                         </div>
                     </div>
-                    <-------------------------------clssic-fictionend------------------------------------------>
-                
+                    <!-------------------------------clssic-fictionend------------------------------------------>
+                <!----------------------------------------------------indion-fiction----------------------------------->
+                <div class="panel panel-default" >
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Indian Fiction Books</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/era.jpg" alt="Othello">
+                                    <div class="caption">
+                                        <h3>Era of Darkness</h3>
+                                        <p>By Shashi Tharoor</p>
+                                        <p>Price: ₹249.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/rag.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Rag Darbari</h3>
+                                        <p>By S Shukal</p>
+                                        <p>Price: ₹300.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/gate.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Golden Gate</h3>
+                                        <p>By Vikram Seth </p>
+                                        <p>Price: ₹440.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+
+                        <!----------------------------------------------------indion-fiction----------------------------------->
+                <div class="panel panel-default" id="religious">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Religious & Spiritual Books</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/aswat.jpg" alt="Othello">
+                                    <div class="caption">
+                                        <h3>Bow of Rama</h3>
+                                        <p>By Gunjan Porwal</p>
+                                        <p>Price: ₹279.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/alc.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Alchemist</h3>
+                                        <p>By Paulo Coelho</p>
+                                        <p>Price: ₹500.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/prophet.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Prophet</h3>
+                                        <p>By Kahlil Gibran </p>
+                                        <p>Price: ₹199.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                            <!----------------------------------------------------hantasy----------------------------------->
+                <div class="panel panel-default" id="fantasy">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Fantasy Books</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/battle.jpg" alt="Othello">
+                                    <div class="caption">
+                                        <h3>BATTLE FOR CRYSTAL CASTLE</h3>
+                                        <p>By Geronimo Stilton</p>
+                                        <p>Price: ₹402.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/dragon.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Dragon of Fortune</h3>
+                                        <p>By Geronimo Stilton</p>
+                                        <p>Price: ₹634.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/charms.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Enchanted Charms</h3>
+                                        <p>By Geronimo Stilton</p>
+                                        <p>Price: ₹417.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                          <!----------------------------------------------------hantasy----------------------------------->
+                <div class="panel panel-default" id="horror">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Horror Books</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/green.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Green Room</h3>
+                                        <p>By Nag Mani</p>
+                                        <p>Price: ₹200.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/asylum.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Asylum</h3>
+                                        <p>By Madeleine Roux </p>
+                                        <p>Price: ₹355.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/shining.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Shining</h3>
+                                        <p>By Stephen King</p>
+                                        <p>Price: ₹367.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
