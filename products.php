@@ -401,7 +401,7 @@ include "includes/common.php"
                             <h4><a href="#" align="center"> Load More </a></h4>
                         </div>
 
-                        <!----------------------------------------------------indion-fiction----------------------------------->
+                        <!----------------------------------------------------religiousn----------------------------------->
                 <div class="panel panel-default" id="religious">
                         <div class="panel-heading  color">
                             <h3 style="color:black">Religious & Spiritual Books</h3>
@@ -561,7 +561,7 @@ include "includes/common.php"
                             </div>
                             <h4><a href="#" align="center"> Load More </a></h4>
                         </div>
-                          <!----------------------------------------------------hantasy----------------------------------->
+                          <!----------------------------------------------------horror----------------------------------->
                 <div class="panel panel-default" id="horror">
                         <div class="panel-heading  color">
                             <h3 style="color:black">Horror Books</h3>
@@ -641,6 +641,486 @@ include "includes/common.php"
                             </div>
                             <h4><a href="#" align="center"> Load More </a></h4>
                         </div>
+                        <!----------------------------------------------------romance----------------------------------->
+                <div class="panel panel-default" id="romance">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Romance</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/perfect.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Perfect Ending</h3>
+                                        <p>By Arpit Vageria</p>
+                                        <p>Price: ₹131.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/ends.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>It Ends With Us</h3>
+                                        <p>By Colleen Hoover</p>
+                                        <p>Price: ₹299.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/last.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Her Last Wish</h3>
+                                        <p>By Ajay K. Pandey</p>
+                                        <p>Price: ₹118.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                        <!----------------------------------------------------mystry----------------------------------->
+                <div class="panel panel-default" id="mystry">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Mystery</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/silent.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>The Silent Patient</h3>
+                                        <p>by Alex Michaelides </p>
+                                        <p>Price: ₹279.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/ruskin.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Perfect Murder</h3>
+                                        <p>By Ruskin Bond</p>
+                                        <p>Price: ₹145.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/one.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Arranged Murder</h3>
+                                        <p>by Chetan Bhagat</p>
+                                        <p>Price: ₹267.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                          <!----------------------------------------------------school----------------------------------->
+                <div class="panel panel-default" id="school">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">School Textbooks</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/evs.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>EVS</h3>
+                                        <p>Class I</p>
+                                        <p>Price: ₹579.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/maths.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Mental Maths</h3>
+                                        <p>Class I</p>
+                                        <p>Price: ₹345.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/english.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>English</h3>
+                                        <p>Class I</p>
+                                        <p>Price: ₹357.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                         <!----------------------------------------------------high-school----------------------------------->
+                <div class="panel panel-default" id="higher">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">High-School Textbooks</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/chem.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Chemistry</h3>
+                                        <p>Class 12th</p>
+                                        <p>Price: ₹209.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/phy.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Physics</h3>
+                                        <p>Class 12th</p>
+                                        <p>Price: ₹195.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/maths1.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>Mathematics</h3>
+                                        <p>Class 12th</p>
+                                        <p>Price: ₹234.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                        <!----------------------------------------------------exam----------------------------------->
+                <div class="panel panel-default" id="exam">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Exam Central</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/bsc.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>BSC Entrance</h3>
+                                        <p>By Arihant Experts</p>
+                                        <p>Price: ₹599.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/sbi.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>SBI Entrance</h3>
+                                        <p>By Arihant Experts</p>
+                                        <p>Price: ₹295.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/bcom.jpg" alt="">
+                                    <div class="caption">
+                                        <h3>BCom Entrance</h3>
+                                        <p>by Arihant Experts</p>
+                                        <p>Price: ₹204.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
+                        <!----------------------------------------------------audio----------------------------------->
+                <div class="panel panel-default" id="audio">
+                        <div class="panel-heading  color">
+                            <h3 style="color:black">Audio Books</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/5am.jpg" alt="">
+                                    <div class="caption">
+                                        <h4>The 5AM Club</h4>
+                                        <p>By Robin Sharma</p>
+                                        <p>Price: ₹99.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="./img/rich.jpg" alt="">
+                                    <div class="caption">
+                                        <h4>Rich Dad Poor Dad</h4>
+                                        <p>By Robert T. Kiyosaki</p>
+                                        <p>Price: ₹255.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?> <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            if (check_if_added_to_cart(2)) {
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {  ?> <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php    }
+                                        }    ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 home-feature">
+                                <div class="thumbnail">
+                                    <img src="img/atomic.jpg" alt="">
+                                    <div class="caption">
+                                        <h4>Atomic Habits</h4>
+                                        <p>by James Clear</p>
+                                        <p>Price: ₹354.00 </p>
+                                        <?php if (!isset($_SESSION['email'])) { ?>
+                                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                            <?php
+                                        } else {
+                                            //We have created a function to check whether this particular product is added to cart or not.
+                                            if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                                echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                            } else {
+                                            ?>
+                                                <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                        <?php
+                                            }
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <br >
+                            </div>
+                            <h4><a href="#" align="center"> Load More </a></h4>
+                        </div>
                     </div>
 
                 </div>
@@ -648,6 +1128,8 @@ include "includes/common.php"
         </div>
     </div>
     <div>
+    <br>
+    <br>
         <!--Footer-->
         <?php
         include 'includes/footer.php';
