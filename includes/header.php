@@ -26,7 +26,7 @@ include 'includes/common.php';
                                         } else {
                                                 ?>
                                         <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                                        <li><a href="../asd/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                                 <?php                     }                     ?>
                         </ul>
                 </div>
