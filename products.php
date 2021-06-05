@@ -35,7 +35,7 @@ include "includes/common.php"
         <!-- Jumbotron Header -->
         <div class="jumbotron home-spacer" id="products-jumbotron">
             <center>
-                <h1>Book-O-Holic Store! </h1>
+                <h1>Book-O-Holic </h1>
                 <p>Browse through variety of genres such as Fiction, Self help, Children's book, and much more...</p>
             </center>
         </div>
